@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GifViewController.h"
 
+@class GifViewController;
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) GifViewController *viewController;
 
 
 @end
